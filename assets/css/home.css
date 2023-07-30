@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-heading h1 {
+  color: grey;
+}
+
+ul,
+form {
+  padding: 0;
+  list-style-type: none;
+  margin: 5px auto;
+  max-width: 400px;
+}
+
+li {
+  display: flex;
+  background-color: #9c34c2;
+  margin-bottom: 8px;
+  box-shadow: 0px 2px 3px grey;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9C34C2;
+  color: white;
+  padding: 4px 10px;
+  margin-bottom: 8px;
+  box-shadow: 0px 2px 3px grey;
+  text-align: center; */
+}
+
+
+
+li .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  width: 90%;
+}
+
+li p {
+  margin: 0;
+}
+
+li .delete-button {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li .delete-button a {
+  height: 20px;
+  width: 20px;
+}
+
+li:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+
+
+/* FORM------------------------------------ */
+
+input {
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  width: 160px;
+  height: 28px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px grey;
+}
+
+button {
+  margin-left: 5px;
+  padding: 0;
+  border: none;
+  outline: none;
+  width: 55px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: grey;
+  cursor: pointer;
+}

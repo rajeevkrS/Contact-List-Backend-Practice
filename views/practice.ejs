@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+        
+        <%= title %>
+    </title>
+</head>
+<body>
+    <h1>PlayGround</h1>
+
+    <ul>
+        <% for(let i = 1; i < 11; i++){ %>
+            <li>
+                <!-- for printing the variable "=" required -->
+                <%= i %>
+            </li>
+        <% } %>    
+    </ul>
+
+    <% if(true){ %>
+        
+        <h1>Its True!</h1>
+
+    <% }else{ %>
+    
+        <p>Its False </p>
+    
+    <% } %>
+
+</body>
+</html>
+<!-- we are sending the data from "JS" to this "home.ejs" and this variable is being read and being rendered  -->
